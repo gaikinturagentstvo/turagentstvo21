@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Оставить заявку</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Оставить заявку</h1>
+    <nav>
+      <a href="index.html">Главная</a> |
+      <a href="tours.html">Туры</a> |
+      <a href="contact.html">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <form onsubmit="alert('Спасибо! Но заявка не будет отправлена — демонстрационная версия.'); return false;">
+      <label for="name">Ваше имя:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Ваш Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="tour">Выберите тур:</label><br>
+      <select id="tour" name="tour">
+        <option>Мальдивы</option>
+        <option>ОАЭ</option>
+        <option>Турция</option>
+        <option>Египет</option>
+        <option>Сочи</option>
+      </select><br><br>
+      <input type="submit" value="Отправить заявку">
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 ТурАгентство "Просто и Дешево"</p>
+  </footer>
+</body>
+</html>
